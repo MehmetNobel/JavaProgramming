@@ -4,8 +4,8 @@ public class Square extends Shape{
 
     private double side;
 
-    public Square(String name,double side) {
-        super(name);
+    public Square(double side) {
+        super("square");
         setSide(side);
     }
 
@@ -17,7 +17,7 @@ public class Square extends Shape{
 
         if(side<=0){
             System.err.println("side data must be upper than 0");
-            return;
+            System.exit(1);
         }
         this.side = side;
     }
@@ -35,7 +35,8 @@ public class Square extends Shape{
     @Override
     public String toString() {
         return "Square{" +
-                "side=" + side +
+                " name=" + this.getName() +
+                " side=" + side +
                 " area=" + area() +
                 " perimeter=" + perimeter() +
                 '}';

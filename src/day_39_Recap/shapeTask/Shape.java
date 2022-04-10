@@ -14,7 +14,8 @@ public class Shape {
     }
 
     public void setName(String name) {
-        if (name.equalsIgnoreCase("square") || name.equalsIgnoreCase("rectangle"))
+        if (name.equalsIgnoreCase("square") || name.equalsIgnoreCase("rectangle")
+                || name.equalsIgnoreCase("circle"))
             this.name = name;
         else {
             System.err.println("shape data is wrong. please try again.");

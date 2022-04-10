@@ -5,8 +5,8 @@ public class Rectangle extends Shape {
     private double width, length;
 
 
-    public Rectangle(String name, double width, double length) {
-        super(name);
+    public Rectangle( double width, double length) {
+        super("rectangle");
         setLength(length);
         setWidth(width);
     }
@@ -48,7 +48,8 @@ public class Rectangle extends Shape {
     @Override
     public String toString() {
         return "Rectangle{" +
-                "width=" + width +
+                " name=" + this.getName() +
+                " width=" + width +
                 ", length=" + length +
                 " area=" + area() +
                 " perimeter=" + perimeter() +
