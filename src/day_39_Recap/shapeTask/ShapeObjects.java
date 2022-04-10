@@ -16,7 +16,6 @@ public class ShapeObjects {
 
         System.out.println("c1 = " + c1);
 
-
     }
 
 
