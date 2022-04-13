@@ -28,6 +28,10 @@ public class ShapeObjects {
 
         System.out.println("rc1 = " + rc1);
 
+        System.out.println("c1.area() = " + c1.area());
+
+        System.out.println("c1 = " + c1);
+
 
     }
 
