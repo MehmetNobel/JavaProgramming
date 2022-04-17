@@ -16,6 +16,7 @@ public class ThrowKeyword {
         if(age<0){
 
             throw new InputMismatchException("AGE CAN NOT BE LESS THAN 0!!");
+
         }
 
         if(age>21){
