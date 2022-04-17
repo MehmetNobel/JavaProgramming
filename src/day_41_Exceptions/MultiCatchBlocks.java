@@ -1,5 +1,8 @@
 package day_41_Exceptions;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
 public class MultiCatchBlocks {
 
     public static void main(String[] args) {
@@ -19,6 +22,16 @@ public class MultiCatchBlocks {
             System.out.println("exception is caught: runtime");
             e.printStackTrace();
         }
+
+        try {
+            FileInputStream fis = new FileInputStream("path");
+        }catch (FileNotFoundException e){
+
+            e.printStackTrace();
+            System.out.println("this is the exception codes details of fis");
+        }
+
+
 
     }
 }
