@@ -9,5 +9,7 @@ public class EmployeeObjects {
         e1.setName("");
 
         e1.setSalary(-25);
+
+
     }
 }
