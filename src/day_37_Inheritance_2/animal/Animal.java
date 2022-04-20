@@ -16,9 +16,9 @@ public class Animal {
         this.color = color;
     }
 
-    public void eat(){
+    public void eat(String food){
 
-        System.out.println(name+ " is eating");
+        System.out.println(name+ " is eating "+food);
     }
 
     public void drink(){

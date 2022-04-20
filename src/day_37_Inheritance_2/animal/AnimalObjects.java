@@ -16,6 +16,10 @@ public class AnimalObjects {
 
         dog1.bark();
 
+        System.out.println("cat1.gender = " + cat1.gender);
+
+        cat1.eat("food");
+
     }
 
 
