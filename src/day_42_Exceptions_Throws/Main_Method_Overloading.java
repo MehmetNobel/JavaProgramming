@@ -1,6 +1,7 @@
 package day_42_Exceptions_Throws;
 
 public class Main_Method_Overloading {
+
     public static void main(int a, int b) {
 
         System.out.println( a+b);
