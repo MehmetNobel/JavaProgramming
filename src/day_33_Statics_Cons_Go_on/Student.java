@@ -20,6 +20,7 @@ public class Student {
         this.gender = gender;
     }
 
+
     public Student(String name, char gender, char grade) {
         this(name, gender);
         this.grade = grade;
