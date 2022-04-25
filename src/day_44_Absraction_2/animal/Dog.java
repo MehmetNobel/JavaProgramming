@@ -1,6 +1,6 @@
 package day_44_Absraction_2.animal;
 
-public class Dog extends Animal{
+public class Dog extends Animal implements Playable{
 
 
     public Dog(String breed, String color, int age, char gender, String size, String name) {
@@ -20,4 +20,8 @@ public class Dog extends Animal{
     }
 
 
+    @Override
+    public void playable() {
+        System.out.println(getName()+ " is so enjoyfull to play with");
+    }
 }

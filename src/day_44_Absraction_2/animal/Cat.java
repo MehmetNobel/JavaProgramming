@@ -1,6 +1,6 @@
 package day_44_Absraction_2.animal;
 
-public class Cat extends Animal{
+public class Cat extends Animal implements Playable{
 
     public Cat(String breed, String color, int age, char gender, String size, String name) {
         super(breed, color, age, gender, size, name);
@@ -14,9 +14,10 @@ public class Cat extends Animal{
     }
 
 
+    @Override
+    public void playable() {
 
+        System.out.println(getName()+ " is so enjoyfull to play with");
 
-
-
-
+    }
 }
