@@ -6,6 +6,14 @@ public interface Playable {
 
    //  int a=5;   by default it will be defined as static and final
 
+      static void method1(){
+          System.out.println("can eat meat-1");
+     }
+
+     default void method2(){
+          System.out.println("can eat meat-2");
+     }
+
 
 
 }

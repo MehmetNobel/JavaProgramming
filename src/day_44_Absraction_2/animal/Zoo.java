@@ -26,6 +26,12 @@ public class Zoo {
 
         d1.playable();
 
+        c1.method2();
+
+        Playable.method1();  // we call the static methods by the name of the interface.
+
+
+
 
     }
 }

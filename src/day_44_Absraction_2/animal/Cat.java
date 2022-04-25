@@ -17,7 +17,14 @@ public class Cat extends Animal implements Playable{
     @Override
     public void playable() {
 
-        System.out.println(getName()+ " is so enjoyfull to play with");
-
     }
+
+    @Override
+    public void method2() {
+        System.out.println(getName()+" can eat meat");
+    }
+
+
+
+
 }
