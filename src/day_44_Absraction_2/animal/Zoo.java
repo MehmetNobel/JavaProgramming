@@ -10,6 +10,8 @@ public class Zoo {
 
         Tiger t1=new Tiger("Tiger02","white",3,'M',"medium","Tie");
 
+        Eagle e1=new Eagle("eagl1","black",2,'M',"s","boni");
+
         System.out.println("d1 = " + d1);
 
         System.out.println("c1 = " + c1);
@@ -30,7 +32,11 @@ public class Zoo {
 
         Playable.method1();  // we call the static methods by the name of the interface.
 
+        e1.Flyable();
 
+        System.out.println("e1 = " + e1);
+
+        e1.highFly();
 
 
     }

@@ -14,6 +14,8 @@ public interface Playable {
           System.out.println("can eat meat-2");
      }  // must be called via object
 
+    //variables are static and final in interface by default.
+
 
 
 
