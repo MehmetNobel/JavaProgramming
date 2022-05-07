@@ -19,12 +19,9 @@ class Person{
 
     }
 
-
 }
 
-
 class Father extends Person{
-
 
 
     public Father(String name){
@@ -94,6 +91,10 @@ public class PolymorphismExample {
         whoAndWhat(new Son("Esat"));
 
         whoAndWhat(new Mother("Ayşe"));
+
+        // static polymprhsm  == metod overloadig
+
+        // dynamic polymprhsm  == metod overriding
 
 
 
