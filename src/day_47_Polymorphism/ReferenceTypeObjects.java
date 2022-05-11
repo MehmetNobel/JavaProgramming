@@ -35,9 +35,18 @@ public class ReferenceTypeObjects {
         Developer developer=new Developer("ahmet",'M',42,"SDET","AMAZON",151,110000);
 
 
-        ((Developer)employee).fixBugs();  // will give error. because in this employee object type is tester.we wanna convert tester
+       // ((Developer)employee).fixBugs();  // will give error. because in this employee object type is tester.we wanna convert tester
         //to developer. there is no is a relation
 
+        Father father =new Father("mehmet");
+
+        if(father instanceof Person)
+            System.out.println( "yes");
+
+        EncapsulationExample e1=new EncapsulationExample("adam",null);
+
+        System.out.println("e1 = " + e1);
+  
 
     }
 }
