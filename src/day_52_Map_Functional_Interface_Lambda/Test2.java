@@ -1,4 +1,4 @@
-package day_52_Map_Functional_Interface;
+package day_52_Map_Functional_Interface_Lambda;
 
 import java.util.Arrays;
 
@@ -17,6 +17,13 @@ public class Test2 {
         };
 
         printEach.test("mehmet");
+
+        // if it is generic we must define the data type within <>.
+        MySecondFunctionalInterface<Integer> msı=n->{
+            System.out.println(n*n*n);
+        };
+
+        msı.test(5);
 
 
 

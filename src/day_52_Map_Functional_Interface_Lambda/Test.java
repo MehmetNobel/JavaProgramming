@@ -1,6 +1,4 @@
-package day_52_Map_Functional_Interface;
-
-import java.util.Map;
+package day_52_Map_Functional_Interface_Lambda;
 
 public class Test {
 
