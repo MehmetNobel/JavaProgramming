@@ -19,7 +19,6 @@ public class Assessment {
 
         for (Map.Entry<Integer, String> each : map1.entrySet()) {
 
-            //System.out.println("each = " + each);
             System.out.println("each.getKey()+ \":\"+ each.getKey() = " + each.getKey() + ":" + each.getValue());
 
 
@@ -57,10 +56,6 @@ public class Assessment {
             System.out.println("each.getValue() = " + each.getValue());
 
         }
-
-
-
-
 
         Set<Integer> set1=new HashSet();
         Set<Integer> set2=new LinkedHashSet<>();
